@@ -1,4 +1,8 @@
-Rails.application.routes.draw do
+# Rails.application.routes.draw do
+ #   root to: redirect('/about.html' )
+Rails. application. routes. draw do
+    root to: 'visitors#new'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +57,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+
 end
